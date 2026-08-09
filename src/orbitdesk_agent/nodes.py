@@ -135,16 +135,11 @@ def generation_node(state, generation_model):
     instruction = CLASSIFICATION_INSTRUCTIONS.get(target_classification, CLASSIFICATION_INSTRUCTIONS["answerable"])
 
     feedback = state.get("verification_feedback")
-    feedback_block = ""
-    if feedback:
-        feedback_block = f"\n\nThe previous attempt was rejected because: {feedback}."
-        if "incomplete_answer" in feedback:
-            feedback_block += (
-                " Your previous answer was cut off before it finished. Keep the new answer to "
-                "at most 5 short sentences and make sure the final sentence is complete."
-            )
-        else:
-            feedback_block += " Fix this in the new answer."
+    feedback_block = (
+        f"\n\nThe previous attempt was rejected because: {feedback}. Fix this in the new answer."
+        if feedback
+        else ""
+    )
 
     user_prompt = (
         f"Evidence:\n{evidence_text}\n\n"
