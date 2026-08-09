@@ -101,8 +101,8 @@ Requires Python 3.10+. First run needs internet access to download the two model
 
 ```bash
 cd orbitdesk-support-agent
-python3 -m venv .venv
-source .venv/bin/activate          # Windows: .venv\Scripts\activate
+python -m venv .venv
+.venv\Scripts\activate          # Windows 
 pip install -r requirements.txt
 pip install -e .                   # makes `orbitdesk_agent` importable for tests
 ```
