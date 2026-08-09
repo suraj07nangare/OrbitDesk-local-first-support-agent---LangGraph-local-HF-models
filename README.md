@@ -7,7 +7,7 @@ a [LangGraph](https://github.com/langchain-ai/langgraph) state graph. No remote 
 are called anywhere in the code.
 ## Project Overview Video
 
-[Project Overview Video](https://drive.google.com/file/d/1MBz5sy_Ej9r3l0q2VMr55WdP0ePqug1u/view?usp=drive_link)
+[Project Overview Video]([https://drive.google.com/file/d/1MBz5sy_Ej9r3l0q2VMr55WdP0ePqug1u/view?usp=drive_link](https://drive.google.com/file/d/1oZ63GbmbR_hoOd0Y5XZkRuEpdMBWwR8a/view?usp=drive_link))
 ## AI assistant disclosure
 
 This repository was built with the help of an AI coding assistant (Anthropic's Claude),
