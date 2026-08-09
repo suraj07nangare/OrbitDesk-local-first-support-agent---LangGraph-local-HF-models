@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "orbitdesk-support-agent"
+version = "0.1.0"
+description = "Local-first LangGraph support agent for the OrbitDesk AI Engineer Internship assignment"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["src"]

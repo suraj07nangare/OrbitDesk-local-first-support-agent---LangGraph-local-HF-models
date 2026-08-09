@@ -1,0 +1,26 @@
+from pathlib import Path
+
+ROOT_DIR = Path(__file__).resolve().parents[2]
+DATA_DIR = ROOT_DIR / "data"
+KB_DIR = DATA_DIR / "knowledge_base"
+RESOLVED_CASES_PATH = DATA_DIR / "resolved_cases.json"
+SAMPLE_QUESTIONS_PATH = DATA_DIR / "sample_questions.json"
+OUTPUT_SCHEMA_PATH = DATA_DIR / "output_schema.json"
+OUTPUTS_DIR = ROOT_DIR / "outputs"
+
+EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
+EMBEDDING_MODEL_REVISION = "main"
+
+GENERATION_MODEL_NAME = "Qwen/Qwen2.5-0.5B-Instruct"
+GENERATION_MODEL_REVISION = "main"
+
+TOP_K = 5
+MAX_CONTEXT_PASSAGES = 4
+MAX_NEW_TOKENS = 240
+MAX_GENERATION_ATTEMPTS = 2
+
+LOW_EVIDENCE_THRESHOLD = 0.30
+CLARIFY_THRESHOLD = 0.48
+GROUNDING_THRESHOLD = 0.40
+
+RECURSION_LIMIT = 12

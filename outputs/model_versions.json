@@ -1,0 +1,12 @@
+{
+  "embedding_model": {
+    "name": "sentence-transformers/all-MiniLM-L6-v2",
+    "load_time_seconds": 0.432
+  },
+  "generation_model": {
+    "name": "Qwen/Qwen2.5-0.5B-Instruct",
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "device": "cpu",
+    "load_time_seconds": 2.992
+  }
+}
