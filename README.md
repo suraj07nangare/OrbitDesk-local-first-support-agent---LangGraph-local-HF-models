@@ -5,7 +5,9 @@ built for the AI Engineer Internship assignment. The full workflow — triage, r
 answer generation and verification — runs on locally loaded Hugging Face models through
 a [LangGraph](https://github.com/langchain-ai/langgraph) state graph. No remote LLM APIs
 are called anywhere in the code.
+## Project Overview Video
 
+[Project Overview Video](https://drive.google.com/file/d/1MBz5sy_Ej9r3l0q2VMr55WdP0ePqug1u/view?usp=drive_link)
 ## AI assistant disclosure
 
 This repository was built with the help of an AI coding assistant (Anthropic's Claude),
