@@ -275,16 +275,4 @@ run (~1 GB total across both models). Every run after that reads from the local 
 Face cache (`~/.cache/huggingface` by default) and does not re-download anything, with
 or without `--offline`.
 
-## Submission checklist (for the Google Form)
 
-- [ ] GitHub repository link (push this project; make sure it's public or shared with
-      reviewers) — including source code, this README, setup instructions, tests and
-      sample outputs (`outputs/sample_runs.json` after running `--samples`).
-- [ ] `diagrams/graph.png` uploaded as the graph diagram image.
-- [ ] Video recording link (4–7 minutes, see the assignment PDF for the required
-      content: node walkthrough, model loading with device shown, three+ live runs
-      across different routes, execution logs/trace, retrieved evidence for one answer,
-      the verification/retry path triggering at least once, and a short trade-off /
-      limitation / next-step discussion).
-- [ ] Exact model names and revisions (`outputs/model_versions.json`).
-- [ ] Hardware used (CPU, RAM, GPU/accelerator if any).
